@@ -1,0 +1,275 @@
+
+@font-face {
+    font-family: my-font;
+    src: url(../fonts/Catamaran-VariableFont_wght.ttf);
+}
+
+.body{
+    font-family: my-font;
+}
+
+.header-top{
+  
+        border-bottom: 1px solid rgb(201, 197, 197);
+        padding: 0;
+        height: 60px;
+    
+}
+
+
+.header-top-left ul{
+ display: flex;
+ margin: 0;
+ padding: 0;
+ align-items: center;
+ margin-top: 15px;
+
+}
+.header-top-left ul li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    height: 40px;
+    position: relative;
+  
+
+}
+.header-top-left ul .biznes::after{
+    content: '';
+    width: 1px;
+    height: 20px;
+    right: -15px;
+    position: absolute;
+    background-color: gray;
+    top: 4px;
+
+}
+.header-top-left ul li a{
+    text-decoration: none;
+    color: black;
+ 
+    
+}
+.header-top-left ul .personally{
+ border-bottom: 3px solid red;
+ 
+ 
+}
+.header-top-left ul .about{
+
+    width: 120px;
+    padding-left: 20px ;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    position: relative;
+  
+    
+}
+
+.header-top-left ul .about::after{
+    content: '';
+    width: 1px;
+    height: 20px;
+    right: 0;
+    position: absolute;
+    background-color: gray;
+   top: 4px;
+}
+
+
+.header-top-left ul .about a{
+    color: gray;
+}
+
+
+.right-left ul {
+    display: flex;
+   
+   
+    align-items: center;
+    margin-top: 20px;   
+     position: relative;
+   
+}
+.right-left ul li{
+    list-style: none;
+    margin-left: 50px;
+    position: relative ;
+    
+    
+    
+}
+.right-left ul li :nth-child(2)::after{
+    content: '';
+    width: 1px;
+    height: 20px;
+    right: 0;
+    position: absolute;
+    background-color: gray;
+    top: 4px;
+}
+
+.right-right ul{
+    display: flex;
+    margin-top: 15px;
+
+}
+.right-right ul li{
+    list-style: none;
+    margin-left: 15px;
+
+    
+}
+.right-right button{
+    border-radius: 30px;
+    border: 1px solid gray;
+    background-color: white;
+    height: 35px;
+    width: 70px;
+
+   
+}
+.right-right button i{
+    margin-left: 5px;
+}
+.right-right button:hover{
+   cursor: pointer;
+}
+.header-middle{
+    height: 60px;
+    border-bottom: 1px solid gray;
+    align-items: center;
+    
+}
+
+.header-middle .middle-left ul{
+    display: flex;
+    margin-top: 20px;
+
+}
+.header-middle .middle-left ul li{
+    list-style: none;
+    margin-left: 15px;
+ 
+}
+.header-middle .middle-left ul li a{
+    text-decoration: none;
+    padding-top: 5px;
+}
+.header-middle .middle-left-right ul li:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.header-middle .middle-left-right ul li{
+    transition: all .3s;
+}
+
+.header-middle .middle-left ul li i{
+    margin-left: 5px;
+}
+.middle-img{
+    margin-top: 16px;
+  
+}
+.middle-img img{
+height: 20px;
+}
+.middle-left-right{
+    margin-left: 20px;
+ 
+}
+.middle-right {
+    margin-left: 50px;
+    margin-top: 10px;
+   
+}
+.middle-right button{
+    margin-left: 80px;
+}
+.middle-right button{
+    margin-right: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: whitesmoke ;
+    height: 40px;
+    width: 40px;
+}
+.middle-right a:nth-child(1):hover{
+    border: 1px solid red;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.middle-right a{
+    text-decoration: none;
+    color: red;
+    margin-left: 40px;
+}
+#sliders-area{
+    height:600px;
+    width: 100%;
+    background-color: #E00034;
+}
+.sliders-right img{
+width: 800px;
+height: 600px;
+margin-left: 100px;
+
+}
+.sliders-left ul li{
+ list-style: none;
+ color: white;
+
+ 
+}
+.sliders-left ul li h1{
+    font-size: 70px;
+}
+.sliders-left ul{
+    margin-top: 200px
+   
+    
+   }
+
+   .famous-up ul{
+    display: flex;
+    margin-top: 90px;
+   }
+   .famous-up ul li{
+    list-style: none;
+   
+   }
+   .famous-up ul li:nth-child(2){
+    margin-left: 10px;
+   }
+
+   .card1{
+    height: 480px;
+    width: 370px;
+    border: 1px solid black;
+    border-radius: 10px;
+   }
+   .card1-up ul{
+display: flex;
+   }
+   .card1-up ul li{
+    list-style: none;
+    margin-left: 10px;
+    background-color: gray;
+    height: 25px;
+    width: 20px;
+    border-radius: 5px;
+    padding-left: 5px ;
+    margin-left: 10px;
+  
+   }
+
+   .card1-up  h1{
+    margin-left: 60px;
+    margin: 0;
+    padding-left: 0;
+   }
+   .number{
+    display: flex;
+   }
